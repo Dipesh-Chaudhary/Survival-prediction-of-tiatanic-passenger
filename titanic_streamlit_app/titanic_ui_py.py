@@ -48,14 +48,15 @@ def main():
     # Scale numerical features
     numerical_features = ["Age", "Fare"]
     data[numerical_features] = scaler.transform(data[numerical_features])
-
+    tt=type(data)
     # Predict
     if st.button("Predict Survival"):
-        prediction = model.predict(data)
-        if prediction[0] == 1:
-            st.success(f"The passenger is likely to survive ")
-        else:
-            st.error(f"The passenger is unlikely to survive .")
+        st.success(f"type :"{tt})
+        # prediction = model.predict(data)
+        # if prediction[0] == 1:
+        #     st.success(f"The passenger is likely to survive ")
+        # else:
+        #     st.error(f"The passenger is unlikely to survive .")
 
 if __name__ == "__main__":
     main()
