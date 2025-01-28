@@ -5,14 +5,15 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
-# Load the trained model and scaler
-
-model = pickle.load(open("titanic_streamlit_app/best_titanic_model.pkl","rb"))
-scaler = pickle.load(open("titanic_streamlit_app/scaler.pkl","rb"))
 
 
 # Streamlit app
 def main():
+    # Load the trained model and scaler
+
+    model = pickle.load(open("titanic_streamlit_app/best_titanic_model.pkl","rb"))
+    scaler = pickle.load(open("titanic_streamlit_app/scaler.pkl","rb"))
+
     st.title("Titanic Survival Prediction")
     st.write("### Enter passenger details to predict survival:")
 
