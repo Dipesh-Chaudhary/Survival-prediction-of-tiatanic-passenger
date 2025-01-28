@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load the trained model and scaler
 
-model = pickle.load(open("best_titanic_model.pkl","rb"))
+model = pickle.load(open("best_model.pkl","rb"))
 scaler = pickle.load(open("scaler.pkl","rb"))
 
 
