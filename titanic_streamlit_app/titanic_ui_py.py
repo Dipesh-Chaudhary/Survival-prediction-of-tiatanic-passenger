@@ -6,14 +6,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model and scaler
-model_path = '/best_titanic_model.pkl'
-scaler_path = '/scaler.pkl'
 
-with open(model_path, 'rb') as file:
-    model = pickle.load(file)
+model = pickle.load(open('best_titanic_model.pkl',"rb"))
+scaler = pickle.load(open('scaler.pkl',"rb"))
 
-with open(scaler_path, 'rb') as file:
-    scaler = pickle.load(file)
 
 # Streamlit app
 def main():
