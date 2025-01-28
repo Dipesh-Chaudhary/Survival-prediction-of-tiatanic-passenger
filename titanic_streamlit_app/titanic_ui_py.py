@@ -50,13 +50,11 @@ def main():
 
     # Predict
     if st.button("Predict Survival"):
-        prediction = model.predict(data)[0]
-        prediction_proba = model.predict_proba(data)[0][1]
-
-        if prediction == 1:
-            st.success(f"The passenger is likely to survive with a probability of {prediction_proba:.2f}.")
-        else:
-            st.error(f"The passenger is unlikely to survive with a probability of {1 - prediction_proba:.2f}.")
+        prediction = model.predict(data)
+        # if prediction == 1:
+        st.success(f"The passenger is likely to survive with a probability of {prediction}.")
+        # else:
+        #     st.error(f"The passenger is unlikely to survive with a probability of {1 - prediction_proba:.2f}.")
 
 if __name__ == "__main__":
     main()
