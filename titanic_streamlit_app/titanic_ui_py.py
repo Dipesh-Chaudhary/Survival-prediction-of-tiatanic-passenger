@@ -51,7 +51,7 @@ def main():
     tt=type(data)
     # Predict
     if st.button("Predict Survival"):
-        st.success(f"type :",{tt})
+        print(tt)
         # prediction = model.predict(data)
         # if prediction[0] == 1:
         #     st.success(f"The passenger is likely to survive ")
