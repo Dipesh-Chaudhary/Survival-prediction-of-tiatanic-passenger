@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model and scaler
-model_path = 'best_model.pkl'
+model_path = 'best_titanic_model.pkl'
 scaler_path = 'scaler.pkl'
 
 with open(model_path, 'rb') as file:
