@@ -51,12 +51,11 @@ def main():
     tt=type(model)
     # Predict
     if st.button("Predict Survival"):
-        st.success(f"The passenger is likely to survive {tt}")
-        # prediction = model.predict(data)
-        # if prediction[0] == 1:
-        #     st.success(f"The passenger is likely to survive ")
-        # else:
-        #     st.error(f"The passenger is unlikely to survive .")
+        prediction = model.predict(data)
+        if prediction[0] == 1:
+            st.success(f"The passenger is likely to survive ")
+        else:
+            st.error(f"The passenger is unlikely to survive .")
 
 if __name__ == "__main__":
     main()
