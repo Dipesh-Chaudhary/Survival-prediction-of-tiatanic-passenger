@@ -91,7 +91,8 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 
 
 **STEPS INVOLVED:**
-1. Firstly, the data was clearly preprocessed and analysed .[Click here](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/1%20Data_selection_%2B_EDA_%2B_Preprocessing_SURVIVAL_PREDICTION_OF_TITANIC.ipynb) for complete walk through
+1. Firstly, the data was clearly preprocessed and analysed and saved the preprocessed dataset as [titanic_processed.csv](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Datasets/titanic_processed.csv).[Click here](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/1%20Data_selection_%2B_EDA_%2B_Preprocessing_SURVIVAL_PREDICTION_OF_TITANIC.ipynb) for complete walk through
+   
 2. And then, 3 models as mentioned in task was trained and evaluated in those 4 essential evaluation metrics(accuracy , precision, recall and f1 score)[Click here for complete walk through](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/2%20MODEL_TRAINING_%2B_EVALUATION_.ipynb)
     
     ![4af96cb0-8bba-4706-9d77-b7aaaf9a9f9c](https://github.com/user-attachments/assets/3bd11caa-0585-450a-9f42-e8f366c9c9dd)
