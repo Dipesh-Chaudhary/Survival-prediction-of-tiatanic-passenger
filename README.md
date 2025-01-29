@@ -87,6 +87,9 @@ Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
 
+
+
+
 **STEPS INVOLVED:**
 * Firstly, the data was clearly preprocessed and analysed .[Click here](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/1%20Data_selection_%2B_EDA_%2B_Preprocessing_SURVIVAL_PREDICTION_OF_TITANIC.ipynb) for complete walk through
 * And then, 3 models as mentioned in task was trained and evaluated in those 4 essential evaluation metrics(accuracy , precision, recall and f1 score)[Click here for complete walk through](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/2%20MODEL_TRAINING_%2B_EVALUATION_.ipynb)
