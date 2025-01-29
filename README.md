@@ -91,9 +91,8 @@ Some children travelled only with a nanny, therefore parch=0 for them.
 
 
 **STEPS INVOLVED:**
-1. Firstly, the data was clearly preprocessed and analysed and saved the preprocessed dataset as [titanic_processed.csv](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Datasets/titanic_processed.csv).[Click here](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/1%20Data_selection_%2B_EDA_%2B_Preprocessing_SURVIVAL_PREDICTION_OF_TITANIC.ipynb) for complete walk through
-   
-2. And then, 3 models as mentioned in task was trained and evaluated in those 4 essential evaluation metrics(accuracy , precision, recall and f1 score)[Click here for complete walk through](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/2%20MODEL_TRAINING_%2B_EVALUATION_.ipynb)
+**1.** Firstly, the data was clearly preprocessed and analysed and saved the preprocessed dataset as [titanic_processed.csv](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Datasets/titanic_processed.csv).[Click here](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/1%20Data_selection_%2B_EDA_%2B_Preprocessing_SURVIVAL_PREDICTION_OF_TITANIC.ipynb) for complete walk through
+**2.** And then, 3 models as mentioned in task was trained and evaluated in those 4 essential evaluation metrics(accuracy , precision, recall and f1 score)[Click here for complete walk through](https://github.com/Dipesh-Chaudhary/Survival-prediction-of-tiatanic-passenger/blob/main/Notebook/2%20MODEL_TRAINING_%2B_EVALUATION_.ipynb)
     
     ![4af96cb0-8bba-4706-9d77-b7aaaf9a9f9c](https://github.com/user-attachments/assets/3bd11caa-0585-450a-9f42-e8f366c9c9dd)
     ![28b16a71-75f5-4df4-918b-fdc48d66ca82](https://github.com/user-attachments/assets/1c8ea6d3-9a87-4de5-8c32-8cce8a21702b)
@@ -107,8 +106,7 @@ Some children travelled only with a nanny, therefore parch=0 for them.
   * **Logistic Regression:** Accuracy = 0.7933, Precision = 0.7681, Recall = 0.7162, F1 Score = 0.7413
   * **Neural Network:** Accuracy = 0.7877, Precision = 0.7903, Recall = 0.6622, F1 Score = 0.7206
 
-
-3. Lastly, an UI was made and deployed using streamleat cloud [CLICK HERE TO USE](https://survival-prediction-of-tiatanic-passenger.streamlit.app/) 
+**3.** Lastly, an UI was made and deployed using streamleat cloud [CLICK HERE TO USE](https://survival-prediction-of-tiatanic-passenger.streamlit.app/) 
 
 
 
