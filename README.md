@@ -108,7 +108,7 @@ Some children travelled only with a nanny, therefore parch=0 for them.
   * **Logistic Regression:** Accuracy = 0.7933, Precision = 0.7681, Recall = 0.7162, F1 Score = 0.7413
   * **Neural Network:** Accuracy = 0.7877, Precision = 0.7903, Recall = 0.6622, F1 Score = 0.7206
 
-**3.** Lastly, an UI was made and deployed using streamleat cloud [CLICK HERE TO USE](https://survival-prediction-of-tiatanic-passenger.streamlit.app/) 
+**3.** Lastly, an UI was made and deployed using streamlit cloud [CLICK HERE TO USE](https://survival-prediction-of-tiatanic-passenger.streamlit.app/) 
 
 
 
